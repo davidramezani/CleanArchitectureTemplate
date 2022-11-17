@@ -7,7 +7,7 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-group = "com.david.davidplayer.buildlogic"
+group = "com.david.lifetoolbox.buildlogic"
 
 dependencies {
     compileOnly(libs.android.gradlePlugin)
@@ -20,6 +20,10 @@ gradlePlugin {
             id = "david.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
+        register("androidLibrary") {
+            id = "david.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
         register("androidApplicationCompose") {
             id = "david.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
@@ -27,6 +31,10 @@ gradlePlugin {
         register("androidLibraryCompose") {
             id = "david.android.library.compose"
             implementationClass = "AndroidLibraryComposeConventionPlugin"
+        }
+        register("androidHilt") {
+            id = "david.android.hilt"
+            implementationClass = "AndroidHiltConventionPlugin"
         }
     }
 }

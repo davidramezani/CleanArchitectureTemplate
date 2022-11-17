@@ -1,4 +1,4 @@
-package com.david.davidplayer
+package com.david.lifetoolbox
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,13 +10,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.david.davidplayer.ui.theme.DavidPlayerTheme
+import com.david.lifetoolbox.ui.theme.LifeToolBoxTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            DavidPlayerTheme {
+            LifeToolBoxTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -37,7 +37,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    DavidPlayerTheme {
+    LifeToolBoxTheme {
         Greeting("Android")
     }
 }

@@ -1,4 +1,4 @@
-package com.david.davidplayer.ui.theme
+package com.david.lifetoolbox.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.david.davidplayer
+package com.david.lifetoolbox
 
 import BuildVersions
 import com.android.build.api.dsl.CommonExtension

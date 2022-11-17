@@ -1,15 +1,14 @@
 plugins {
     id("david.android.application")
     id("david.android.application.compose")
+    id("david.android.hilt")
 }
 
 android {
-    namespace = "com.david.davidplayer"
-
     defaultConfig {
-        applicationId = "com.david.davidplayer"
+        applicationId = "com.david.lifetoolbox"
         versionCode = 1
-        versionName = "1.0" // X.Y.Z; X = Major, Y = minor, Z = Patch level
+        versionName = "0.0.1" // X.Y.Z; X = Major, Y = minor, Z = Patch level
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -30,6 +29,14 @@ android {
             excludes.add("/META-INF/{AL2.0,LGPL2.1}")
         }
     }
+
+    testOptions {
+        unitTests {
+            isIncludeAndroidResources = true
+        }
+    }
+
+    namespace = "com.david.lifetoolbox"
 }
 
 dependencies {

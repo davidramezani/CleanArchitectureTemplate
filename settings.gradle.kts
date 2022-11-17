@@ -16,5 +16,7 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "DavidPlayer"
+rootProject.name = "lifetoolbox"
 include(":app")
+include(":core:common")
+include(":core:testing")
