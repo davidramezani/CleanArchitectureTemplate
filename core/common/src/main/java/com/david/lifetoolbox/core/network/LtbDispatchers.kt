@@ -1,4 +1,4 @@
-package com.david.core.network
+package com.david.lifetoolbox.core.network
 
 import javax.inject.Qualifier
 import kotlin.annotation.AnnotationRetention.RUNTIME

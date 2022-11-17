@@ -1,4 +1,4 @@
-package com.david.core.result
+package com.david.lifetoolbox.core.result
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch

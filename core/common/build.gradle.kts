@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.david.common"
+    namespace = "com.david.lifetoolbox.core.common"
 }
 
 dependencies {

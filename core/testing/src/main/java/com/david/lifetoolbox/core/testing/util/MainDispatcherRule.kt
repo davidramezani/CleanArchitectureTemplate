@@ -1,4 +1,4 @@
-package com.david.core.testing.util
+package com.david.lifetoolbox.core.testing.util
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.test.TestDispatcher

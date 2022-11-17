@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.david.core.testing"
+    namespace = "com.david.lifetoolbox.core.testing"
 }
 
 dependencies {

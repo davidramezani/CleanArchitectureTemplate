@@ -1,4 +1,4 @@
-package com.david.core.testing.di
+package com.david.lifetoolbox.core.testing.di
 
 import dagger.Module
 import dagger.Provides

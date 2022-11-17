@@ -1,4 +1,4 @@
-package com.david.core.testing
+package com.david.lifetoolbox.core.testing
 
 import android.app.Application
 import android.content.Context

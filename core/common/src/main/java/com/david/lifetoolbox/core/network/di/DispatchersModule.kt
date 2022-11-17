@@ -1,7 +1,7 @@
-package com.david.core.network.di
+package com.david.lifetoolbox.core.network.di
 
-import com.david.core.network.LtbDispatchers.IO
-import com.david.core.network.Dispatcher
+import com.david.lifetoolbox.core.network.LtbDispatchers.IO
+import com.david.lifetoolbox.core.network.Dispatcher
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

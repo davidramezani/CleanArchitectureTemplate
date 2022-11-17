@@ -20,3 +20,4 @@ rootProject.name = "lifetoolbox"
 include(":app")
 include(":core:common")
 include(":core:testing")
+include(":core:network")
